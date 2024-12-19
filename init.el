@@ -774,7 +774,7 @@ state."
 
 (use-package gptel
   :config
-  (setq gptel-default-mode 'org-mode)
+  (setq gptel-default-mode 'org-mode))
   
 ;; * notmuch
 (use-package notmuch
@@ -849,7 +849,7 @@ state."
     "f" #'my/avy-isearch)
 
 ;; * Markdown mode
-(use-package mardown-mode)
+;; (use-package mardown-mode)
 ;; * next-error (credit karthink)
 (use-package simple
   :ensure nil
